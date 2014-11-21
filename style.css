@@ -3,18 +3,16 @@
  -moz-box-sizing: border-box;
  box-sizing: border-box; 
 }
-body, html {
- font-size: 100%;
- padding: 0;
- margin: 0;
-}
 
-body {
+body, html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     background: #0c84c5;
     background: #0c84c5;
-
+	overflow-y: scroll;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 a,a:hover  {
@@ -22,16 +20,11 @@ a,a:hover  {
 	text-decoration: none;
 }
 
-html, body, 
+
 .container {
 	position: relative;
 	width: 100%;
 	height: 100%;
-}
-
-body {
-	overflow-y: scroll;
-	background: #0c84c5;
 }
 
 .splitlayout {
@@ -125,7 +118,8 @@ body {
 
 
 @media screen and (max-width: 83em) {
-	.intro-content { font-size: 60%; }
+	.intro-content { font-size: 60%; 
+	}
 }
 
 @media screen and (max-width: 58em) {
@@ -134,36 +128,15 @@ body {
 
 
 @media screen and (max-width: 49.4375em) {
-	.page {
-		width: 100%;
-	}
-
-	.page-right {
-		left: 0;
-		padding-left: 15%;
-	}
-
-	.page-left {
-		padding-right: 15%;
-	}
-
 	.intro-content {
 		width: 70%;
 	}
 
-
-	.back-left {
-		left: 6.25%;
-	}
-
-	.back-right {
-		right: 6.25%;
-	}
-	
 }
 
 @media screen and (max-width: 42.5em) {
-	body { font-size: 80%; }
+	body { font-size: 80%; 
+	}
 	.intro-content { 
 		font-size: 70%; 
 		width: 80%;
@@ -177,7 +150,6 @@ body {
 }
 
 
-/* Changes Profile Size */
 @media screen and (max-width: 25em) {
 	.intro-content .profile { -webkit-transform: scale(0.75); transform: scale(0.75); }
 }

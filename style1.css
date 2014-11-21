@@ -97,20 +97,16 @@ width: 100%;
   margin-right: auto;
 }
 
-.page,
-.post {
+.page {
   margin-bottom: 2em;
 }
 
 
-.page-title,
-.post-title,
-.post-title a {
+.page-title, a {
   color: #0c84c5;
   font-weight: normal;
 }
-.page-title,
-.post-title {
+.page-title {
   margin-top: 0;
 }
 
