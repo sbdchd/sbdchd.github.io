@@ -22,13 +22,19 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -7rem;
+  left: 0;
+  width: 100%;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 a {
-  color: #268bd2;
   text-decoration: none;
+  color: #0c84c5;
+  font-weight: normal
 }
 
 a:hover,
@@ -38,16 +44,19 @@ a:focus {
 
 h1 {
   margin-bottom: .5rem;
-  font-weight: bold;
   line-height: 1.25;
   font-size: 1.6rem;
-  color: #313131;
   text-rendering: optimizeLegibility;
+  color: #0c84c5;
+  font-weight: 300;
+  margin-top: 0;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 70em){
@@ -69,35 +78,11 @@ h1 {
  
 }
 
-.vert1{
-position: absolute;
-top: 50%;
-margin-top: -7rem;
-left: 0;
-width: 100%;
-}
-
 .container {
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-}
-
-.page {
   margin-bottom: 2em;
-}
-
-.page-title, a {
-  color: #0c84c5;
-  font-weight: normal;
-}
-.page-title {
-  margin-top: 0;
-}
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
 }
