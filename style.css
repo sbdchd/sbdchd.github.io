@@ -20,6 +20,13 @@ a,a:hover  {
 	text-decoration: none;
 }
 
+.white{
+color: #fff;
+}
+
+.blue{
+color: #0c84c5
+}
 
 .container {
 	position: relative;
@@ -154,14 +161,4 @@ a,a:hover  {
 	.intro-content .profile { -webkit-transform: scale(0.75); transform: scale(0.75); }
 }
 
-@media screen and (max-width: 320px) {
-	body { font-size: 70%; }
-}
 
-.white{
-color: #fff;
-}
-
-.blue{
-color: #0c84c5
-}
