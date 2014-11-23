@@ -65,7 +65,6 @@ color: #0c84c5
 	outline: 1px solid #fff; 
 }
 
-
 .intro-content {
 	position: absolute;
 	top: 50%;
@@ -122,8 +121,6 @@ color: #0c84c5
 	background: #0c84c5;
 }
 
-
-
 @media screen and (max-width: 83em) {
 	.intro-content { font-size: 60%; 
 	}
@@ -160,5 +157,3 @@ color: #0c84c5
 @media screen and (max-width: 25em) {
 	.intro-content .profile { -webkit-transform: scale(0.75); transform: scale(0.75); }
 }
-
-
