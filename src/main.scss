@@ -1,0 +1,56 @@
+$light-black: #444;
+
+html {
+  color: $light-black;
+  font-family: georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  width: 25%;
+}
+
+.dashed-underline {
+  border-bottom: 1px dashed;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &.dashed-underline:hover {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+img {
+  border-radius: 50%;
+  max-width: 75%;
+}
