@@ -9,6 +9,7 @@ Install
 ```bash
 git clone https://github.com/sbdchd/sbdchd.github.io && sbdchd.github.io
 npm install
+npm install -g grunt-cli
 ```
 
 Build
