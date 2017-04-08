@@ -33,6 +33,7 @@ body {
 }
 
 a {
+  color: #167ac6;
   text-decoration: none;
 }
 a.dashed-underline:hover {
